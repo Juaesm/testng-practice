@@ -63,7 +63,7 @@ public class wikipediaTest{
         driver.findElement(By.id("wpPassword1")).sendKeys("Pass1234*");
 
         driver.findElement(By.id("wpLoginAttempt")).click();
-
+        
         System.out.println("Login successful");
 
 
